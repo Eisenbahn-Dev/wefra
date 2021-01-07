@@ -1,0 +1,21 @@
+<?php
+return array (
+  '<strong>Manage</strong> spaces' => 'الوحدات <strong>ادارة</strong>',
+  'Add new space' => 'أضف باحة جديدة',
+  'Change owner' => 'تغير المالك',
+  'Default Content Visiblity' => 'رؤية المحتوى الافتراضي',
+  'Default Join Policy' => 'صلاحيات الإنضمام القياسية',
+  'Default Visibility' => 'نوعية الظهور القياسية',
+  'Default space' => 'الباحة الإفتراضية',
+  'Here you can define your default settings for new spaces. These settings can be overwritten for each individual space.' => 'هنا يمكنك تحديد الإعدادات الافتراضية للمساحات الجديدة. يمكن استبدال هذه الإعدادات لكل مساحة على حدة.',
+  'Invalid space' => 'باحة خاطئة',
+  'Manage members' => 'إدارة الأعضاء',
+  'Manage modules' => '',
+  'Open space' => 'إدارة الوحدات',
+  'Overview' => 'نظرة شاملة',
+  'Search by name, description, id or owner.' => 'البحث بالاسم أو الوصف أو الهوية أو المالك.',
+  'Settings' => 'الإعدادات',
+  'Space Settings' => 'الإعدادات الوحدات',
+  'Spaces' => 'الباحات',
+  'This overview contains a list of each space with actions to view, edit and delete spaces.' => 'تحتوي هذه النظرة العامة على قائمة بكل مساحة مع إجراءات لعرض المساحات وتعديلها وحذفها.',
+);

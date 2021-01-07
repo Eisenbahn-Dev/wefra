@@ -1,0 +1,21 @@
+<?php
+return array (
+  '<strong>Manage</strong> spaces' => '<strong>Управление</strong> на раздели',
+  'Add new space' => 'Добавяне на нов раздел',
+  'Change owner' => 'Смяна на собственика',
+  'Default Content Visiblity' => 'Видимост на съдържанието по подразбиране',
+  'Default Join Policy' => 'Политика за присъединяване по подразбиране',
+  'Default Visibility' => 'Съдържание по подразбиране',
+  'Default space' => 'Раздел по подразбиране',
+  'Here you can define your default settings for new spaces. These settings can be overwritten for each individual space.' => 'Тук можете да дефинирате настройките си по подразбиране за нови раздели. Тези настройки могат да бъдат заменени за всеки отделен раздел.',
+  'Invalid space' => 'Невалиден раздел',
+  'Manage members' => 'Управление на членовете',
+  'Manage modules' => 'Управление на модулите',
+  'Open space' => 'Отваряне на раздел',
+  'Overview' => 'Общ преглед',
+  'Search by name, description, id or owner.' => 'Търсене по име, описание, идентификатор или собственик',
+  'Settings' => 'Настройки',
+  'Space Settings' => 'Настройки на раздела',
+  'Spaces' => 'Раздели',
+  'This overview contains a list of each space with actions to view, edit and delete spaces.' => 'Този общ преглед съдържа списък на всеки раздел с действия за преглед, редактиране и изтриване на раздели.',
+);

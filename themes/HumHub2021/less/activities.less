@@ -1,0 +1,48 @@
+// Activities
+.activities {
+    max-height: 400px;
+    overflow: auto;
+
+    li.activity-entry {
+        padding: 0;
+    }
+
+    li .media {
+        position: relative;
+        padding: 10px;
+    }
+
+    li .media .img-space {
+        position: absolute;
+        top: 24px;
+        left: 24px;
+    }
+
+    li .media .media-body {
+        max-width: 295px;
+    }
+}
+
+#activityStream {
+    padding: 1rem;
+    padding-right: 0;
+    background-color: #eee;
+    border: 1px solid lightgray;
+    border-top: none;
+
+    li.activity-entry {
+        margin: 2rem;
+        margin-left: 1rem;
+        background-color: white;
+        border-radius: 1rem;
+        border: 1px solid @white;
+        -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+        -moz-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+        transition: border 0.3s;
+
+        &:hover {
+            border: 1px solid @primary;
+        }
+    }
+}

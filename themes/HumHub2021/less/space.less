@@ -1,0 +1,166 @@
+// Space > Admin
+.space-owner {
+    text-align: center;
+    margin: 14px 0;
+    font-size: 13px;
+    color: #999;
+}
+
+// Member sign for directory list
+.space-member-sign {
+    color: @success;
+    position: absolute;
+    top: 42px;
+    left: 42px;
+    font-size: 16px;
+    background: #fff;
+    width: 24px;
+    height: 24px;
+    padding: 2px 3px 1px 4px;
+    border-radius: 50px;
+    border: 2px solid @success;
+}
+
+.space-content, .profile-content {
+    margin-top: 20rem;
+
+    #space-main-menu, .left-navigation {
+        padding: 2rem 2rem;
+        margin-left: -3rem;
+        margin-top: 2rem;
+    
+        .panel-heading {
+            margin-bottom: 1rem;
+        }
+    }
+
+    .layout-sidebar-container {
+        margin-top: 2rem;
+
+        .img-rounded {
+            border-radius: 50%;
+        }
+
+        .members {
+            padding: 1rem;
+        }
+    }
+
+    .clearfix {
+        background-color: transparent;
+        border: none;
+        box-shadow: none;
+
+        .form-control {
+            padding: 2rem;
+            border-radius: 1rem;
+            margin-top: 0.2rem;
+            border-color: @white;
+        }
+
+        .btn_container {
+            background-color: @white;
+            border-radius: 1rem;
+
+            #post_submit_button {
+                width: 70%;
+            }
+
+            .btn-group {
+                width: 20%;
+
+                .btn {
+                    width: 100%;
+                }
+            }
+
+            .dropdown-toggle {
+                padding: 1rem 10px !important;
+            }
+        }
+    }
+}
+
+#space-menu-dropdown i.type {
+    font-size: 16px;
+    color: #BFBFBF;
+}
+
+#space-menu-spaces [data-space-chooser-item] {
+    cursor: pointer;
+}
+
+#space-menu-dropdown .input-group-addon {
+    border-radius: 0 4px 4px 0;
+}
+
+#space-menu-dropdown .input-group-addon.focus {
+    border-radius: 0 4px 4px 0;
+    border: 2px solid @info;
+    border-left: 0;
+}
+
+.input-group #space-menu-search {
+    border-right: 0;
+
+}
+
+#space-menu-dropdown div:not(.input-group) > .search-reset {
+    top: 10px !important;
+    right: 15px !important;
+}
+
+#space-directory-link i {
+    margin-right: 0;
+}
+
+.space-acronym {
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+}
+
+.current-space-image {
+    margin-right: 3px;
+    margin-top: 3px;
+}
+
+@media @responsive {
+    #space-menu > .title {
+        display: none;
+    }
+
+    .space-content, .profile-content {
+        margin-top: 20rem !important;
+    }
+
+    #space-menu-dropdown {
+        width: 300px !important;
+    }
+
+    .panel-profile-controls {
+        padding-top: 0;
+
+        .row .col-md-12 {
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+        }
+
+        .statistics {
+            float: unset !important;
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .controls.controls-header {
+            float: unset !important;
+            margin-top: 2rem;
+            display: flex;
+            justify-content: space-between;
+
+            button.btn.btn-primary {
+                width: 60%;
+            }
+        }
+    }
+}

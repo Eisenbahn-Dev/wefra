@@ -1,0 +1,16 @@
+{
+  "name": "humhub",
+  "version": "1.0.0",
+  "description": "Modern theme",
+  "main": "index.js",
+  "scripts": {
+    "build": "lessc themes/HumHub2021/less/theme.less themes/HumHub2021/css/theme.css",
+    "watch": "less-watch-compiler themes/HumHub2021/less themes/HumHub2021/css theme.less"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.gal-digital.de:wefra-life-corporate-gmbh/wefra-life-humhub-showcase.git"
+  },
+  "author": "",
+  "license": "ISC"
+}
